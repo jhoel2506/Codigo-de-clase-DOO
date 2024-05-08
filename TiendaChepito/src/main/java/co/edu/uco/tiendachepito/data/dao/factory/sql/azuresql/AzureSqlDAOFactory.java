@@ -1,70 +1,67 @@
 package co.edu.uco.tiendachepito.data.dao.factory.sql.azuresql;
 
+import java.sql.Connection;
+
 import co.edu.uco.tiendachepito.data.dao.CiudadDAO;
 import co.edu.uco.tiendachepito.data.dao.DepartamentoDAO;
 import co.edu.uco.tiendachepito.data.dao.PaisDAO;
 import co.edu.uco.tiendachepito.data.dao.factory.DAOFactory;
-import co.edu.uco.tiendachepito.data.dao.sql.azuresql.CiudadsqlDAO;
-import co.edu.uco.tiendachepito.data.dao.sql.azuresql.DepartamentoAzuresqlDAO;
-import co.edu.uco.tiendachepito.data.dao.sql.azuresql.PaisAzuresqlDAO;
-
-import java.sql.Connection;
-
+import co.edu.uco.tiendachepito.data.dao.sql.azuresql.CiudadAzureSqlDAO;
+import co.edu.uco.tiendachepito.data.dao.sql.azuresql.DepartamentoAzureSqlDAO;
+import co.edu.uco.tiendachepito.data.dao.sql.azuresql.PaisAzureSqlDAO;
 
 public final class AzureSqlDAOFactory extends DAOFactory {
 
-    private final Connection connection;
+	private Connection connection;
 
-    public AzureSqlDAOFactory(Connection connection) {
-        this.connection = connection;
-    }
-    
+	public AzureSqlDAOFactory() {
+		obtenerConexion();
+	}
 
-    public AzureSqlDAOFactory() {
-        obtenerConexion();
-    }
-    
-    protected void obtenerConexion(){
-        connection = null;
-    }
+	@Override
+	protected void obtenerConexion() {
+		// TODO Auto-generated method stub
+		connection = null;
 
-    @Override
-    public void obtenerConexion() {
-        connection = null;
-    }
+	}
 
-    @Override
-    public void iniciarTransaccion() {
+	@Override
+	public void iniciarTransaccion() {
+		// TODO Auto-generated method stub
 
-    }
+	}
 
-    @Override
-    public void confirmarTransaccion() {
+	@Override
+	public void confirmarTransaccion() {
+		// TODO Auto-generated method stub
 
-    }
+	}
 
-    @Override
-    public void cancelarTransaccion() {
+	@Override
+	public void cancelarTransaccion() {
+		// TODO Auto-generated method stub
 
-    }
+	}
 
-    @Override
-    public void cerrarConexion() {
+	@Override
+	public void cerrarConexion() {
+		// TODO Auto-generated method stub
 
-    }
+	}
 
-    @Override
-    public PaisDAO getPaisDAO() {
-        return new PaisAzuresqlDAO(connection);
-    }
+	@Override
+	public PaisDAO getPaisDAO() {
+		return new PaisAzureSqlDAO(connection);
+	}
 
-    @Override
-    public DepartamentoDAO getDepartamentoDAO() {
-        return new DepartamentoAzuresqlDAO(connection);
-    }
+	@Override
+	public DepartamentoDAO getDepartamentoDAO() {
+		return new DepartamentoAzureSqlDAO(connection);
+	}
 
-    @Override
-    public CiudadDAO getCiudadDAO() {
-        return new CiudadsqlDAO(connection);
-    }
+	@Override
+	public CiudadDAO getCiudadDAO() {
+		return new CiudadAzureSqlDAO(connection);
+	}
+
 }

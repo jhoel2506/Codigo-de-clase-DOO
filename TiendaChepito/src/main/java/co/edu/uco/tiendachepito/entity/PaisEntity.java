@@ -4,43 +4,44 @@ import co.edu.uco.tiendachepito.crosscutting.helpers.NumericHelper;
 import co.edu.uco.tiendachepito.crosscutting.helpers.TextHelper;
 
 public final class PaisEntity {
-    private int id;
-    private String nombre;
 
-    private PaisEntity(final int id) {
-        setNombre(TextHelper.EMPTY);
-    }
+	private int id;
+	private String nombre;
 
-    private PaisEntity(final int id, final String nombre) {
-        setId(id);
-        setNombre(nombre);
-    }
+	private PaisEntity(final int id) {
+		setNombre(TextHelper.EMPTY);
+	}
 
-    public void setId(final int id) {
-        this.id = id;
-    }
+	private PaisEntity(final int id, final String nombre) {
+		setId(id);
+		setNombre(nombre);
+	}
 
-    public final void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
+	public static final PaisEntity build(final int id) {
+		return new PaisEntity(id);
+	}
 
-    public int getId() {
-        return id;
-    }
+	protected static final PaisEntity build() {
+		return new PaisEntity(NumericHelper.ZERO);
+	}
 
-    public String getNombre() {
-        return nombre;
-    }
+	public static final PaisEntity build(final int id, final String nombre) {
+		return new PaisEntity(id, nombre);
+	}
 
-    public static final PaisEntity build(final int id) {
-        return new PaisEntity(id);
-    }
+	private final void setId(final int id) {
+		this.id = id;
+	}
 
-    public static final PaisEntity build(final int id, final String nombre, final PaisEntity pais) {
-        return new PaisEntity(id, nombre);
-    }
+	private final void setNombre(final String nombre) {
+		this.nombre = TextHelper.applyTrim(nombre);
+	}
 
-    protected static final PaisEntity build() {
-        return new PaisEntity(NumericHelper.ZERO);
-    }
+	public final int getId() {
+		return id;
+	}
+
+	public final String getNombre() {
+		return nombre;
+	}
 }

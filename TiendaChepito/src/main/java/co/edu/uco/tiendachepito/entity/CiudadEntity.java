@@ -1,51 +1,62 @@
 package co.edu.uco.tiendachepito.entity;
 
-import co.edu.uco.tiendachepito.crosscutting.helpers.NumericHelper;
+import static co.edu.uco.tiendachepito.crosscutting.helpers.NumericHelper.ZERO;
+
+import co.edu.uco.tiendachepito.crosscutting.helpers.ObjectHelper;
+import co.edu.uco.tiendachepito.crosscutting.helpers.TextHelper;
 
 public final class CiudadEntity {
-    private int id;
-    private String nombre;
-    private DepartamentoEntity departamento;
 
-    private CiudadEntity(final int id){
-        setId(id);
-    }
-    private CiudadEntity(final int id,final String nombre,final DepartamentoEntity departamento){
-        setId(id);
-        setNombre(nombre);
-        setDepartamento(departamento);
-    }
-    protected static final CiudadEntity build(){
-        return new CiudadEntity(NumericHelper.ZERO);
-    }
+	private int id;
+	private String nombre;
+	private DepartamentoEntity departamento;
 
-    public DepartamentoEntity setDepartamento() {
-        return departamento;
-    }
+	private CiudadEntity(final int id) {
+		setId(id);
+		setNombre(TextHelper.EMPTY);
+		setDepartamento(DepartamentoEntity.build());
+	}
 
-    private void setId(int id) {
-        this.id = id;
-    }
+	private CiudadEntity(final int id, final String nombre, final DepartamentoEntity departamento) {
+		setId(id);
+		setNombre(nombre);
+		setDepartamento(departamento);
+	}
 
-    private void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
+	public static final CiudadEntity build(final int id) {
+		return new CiudadEntity(id);
+	}
 
-    private void setDepartamento(DepartamentoEntity departamento) {
-        this.departamento = departamento;
-    }
+	public static final CiudadEntity build(final int id, final String nombre, final DepartamentoEntity departamento) {
+		return new CiudadEntity(id, nombre, departamento);
+	}
 
-    public String getNombre() {
-        return nombre;
-    }
+	protected static final CiudadEntity build() {
+		return new CiudadEntity(ZERO);
+	}
 
-    public final int getId() {
-        return id;
-    }
-    public static final CiudadEntity build(final int id){
-        return new CiudadEntity(id);
-    }
-    public static final CiudadEntity build(final int id,final String nombre,final DepartamentoEntity departamento){
-        return new CiudadEntity(id,nombre,departamento);
-    }
+	private final void setId(final int id) {
+		this.id = id;
+	}
+
+	private final void setNombre(final String nombre) {
+		this.nombre = TextHelper.applyTrim(nombre);
+	}
+
+	private final void setDepartamento(final DepartamentoEntity departamento) {
+		this.departamento = ObjectHelper.getObjectHelper().getDefault(departamento, DepartamentoEntity.build());
+	}
+
+	public final int getId() {
+		return id;
+	}
+
+	public final String getNombre() {
+		return nombre;
+	}
+
+	public final DepartamentoEntity getDepartamento() {
+		return departamento;
+	}
+
 }
