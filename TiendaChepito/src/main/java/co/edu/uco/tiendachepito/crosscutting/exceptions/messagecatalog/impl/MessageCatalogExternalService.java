@@ -19,6 +19,8 @@ public final class MessageCatalogExternalService implements MessageCatalog {
 		mensajes.clear();
 		mensajes.put(CodigoMensaje.M00007.getIdentificador(),
 				new Mensaje(CodigoMensaje.M00007, "La transacción se ha completado de forma satisfactoria..."));
+		mensajes.put(CodigoMensaje.M00023.getIdentificador(),
+				new Mensaje(CodigoMensaje.M00023, "Se ha presentado un problema tratando de realizar un insert de la informacion del pais"));
 	}
 
 	@Override

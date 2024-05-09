@@ -28,8 +28,36 @@ public final class MessageCatalogBase implements MessageCatalog {
 				"El mensaje con identificador \"${1}\" que se intentó obtener, no está configurado para residir en el catálogo de mensajes externo..."));
 		mensajes.put(CodigoMensaje.M00006.getIdentificador(), new Mensaje(CodigoMensaje.M00006,
 				"El identificador del mensaje \"${1}\" que se intentó obtener, no está en el catálogo de mensajes externo..."));
+		mensajes.put(CodigoMensaje.M00007.getIdentificador(), new Mensaje(CodigoMensaje.M00007,
+				"Lorem SQL"));
+		mensajes.put(CodigoMensaje.M00008.getIdentificador(), new Mensaje(CodigoMensaje.M00008,
+				"Lorem SQL"));
+		mensajes.put(CodigoMensaje.M00009.getIdentificador(), new Mensaje(CodigoMensaje.M00009,
+				"Se ha intentando realizar el cerrie de una conexion SQL que ya estaba cerrada"));
 		mensajes.put(CodigoMensaje.M00010.getIdentificador(), new Mensaje(CodigoMensaje.M00010,
-				"Sea presentado un error tratando de cerrar "));
+				"Hubo un error tratando de cerrar la conexion SQL"));
+		mensajes.put(CodigoMensaje.M00011.getIdentificador(), new Mensaje(CodigoMensaje.M00011,
+				"lLorem sql"));
+		mensajes.put(CodigoMensaje.M00012.getIdentificador(), new Mensaje(CodigoMensaje.M00012,
+				"Se ha intentado confirmar una transaccion con una conexion SQL cerrada"));
+		mensajes.put(CodigoMensaje.M00013.getIdentificador(), new Mensaje(CodigoMensaje.M00013,
+				"Se ha intentado confirmar una transaccion cuando el autocommit estaba activdado"));
+		mensajes.put(CodigoMensaje.M00014.getIdentificador(), new Mensaje(CodigoMensaje.M00014,
+				"Se ha presentado un problema tratando de confirmar una trasaccion SQL con la fuente de datos deseada"));
+		mensajes.put(CodigoMensaje.M00015.getIdentificador(), new Mensaje(CodigoMensaje.M00015,
+				"Se ha presentado un problema INEPSERADO tratando de confirmar una transaccion"));
+		mensajes.put(CodigoMensaje.M00016.getIdentificador(), new Mensaje(CodigoMensaje.M00016,
+				"Se ha presentado un problema INEPSERADO tratando de confirmar una transaccion"));
+		mensajes.put(CodigoMensaje.M00017.getIdentificador(), new Mensaje(CodigoMensaje.M00017,
+				"Se ha presentado un problema INEPSERADO tratando de confirmar una transaccion"));
+		mensajes.put(CodigoMensaje.M00018.getIdentificador(), new Mensaje(CodigoMensaje.M00018,
+				"Se ha presentado un problema INEPSERADO tratando de confirmar una transaccion"));
+		mensajes.put(CodigoMensaje.M00019.getIdentificador(), new Mensaje(CodigoMensaje.M00019,
+				"Se ha presentado un problema INEPSERADO tratando de confirmar una transaccion"));
+		mensajes.put(CodigoMensaje.M00020.getIdentificador(), new Mensaje(CodigoMensaje.M00020,
+				"Se ha presentado un problema INEPSERADO tratando de confirmar una transaccion"));
+		mensajes.put(CodigoMensaje.M00021.getIdentificador(), new Mensaje(CodigoMensaje.M00021,
+				"Se ha presentado un problema INEPSERADO tratando de confirmar una transaccion"));
 	}
 
 	@Override
