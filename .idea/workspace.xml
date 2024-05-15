@@ -5,64 +5,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cd7634a-cbb4-459b-a1e8-f2ff83db3593" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01c5bf1acc35e1ca5e80874ca41753fdd85c3ede" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/1/01c5bf1acc35e1ca5e80874ca41753fdd85c3ede" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/api/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/business/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/config/TiendaChepitoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/TiendaChepitoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/custom/BusinessTiendaChepitoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/custom/ControllerTiendaChepitoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/custom/CrosscuttingTiendaChepitoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/custom/DTOTiendaChepitoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/custom/DataTiendaChepitoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/custom/EntityTiendaChepitoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/custom/InitializerTiendaChepitoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/enums/Lugar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/messagecatalog/MessageCatalog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/messagecatalog/MessageCatalogStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/messagecatalog/data/CategoriaMensaje.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/messagecatalog/data/CodigoMensaje.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/messagecatalog/data/Mensaje.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/messagecatalog/data/TipoMensaje.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/messagecatalog/impl/MessageCatalogBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/messagecatalog/impl/MessageCatalogExternalService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/helpers/NumericHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/helpers/ObjectHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/helpers/SQLHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/crosscutting/helpers/TextHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/data/dao/CiudadDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/data/dao/DepartamentoDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/data/dao/PaisDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/data/dao/factory/DAOFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/data/dao/factory/enums/Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/data/dao/factory/sql/azuresql/AzureSqlDAOFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/data/dao/general/ActualizarDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/data/dao/general/ConsultarDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/data/dao/general/CrearDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/data/dao/general/EliminarDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/data/dao/nosql/mongodb/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/data/dao/sql/SqlConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/data/dao/sql/azuresql/CiudadAzureSqlDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/data/dao/sql/azuresql/DepartamentoAzuresqlDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/data/dao/sql/azuresql/PaisAzuresqlDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/dto/CiudadDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/dto/DepartamentoDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/dto/PaisDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/entity/CiudadEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/entity/DepartamentoEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/java/co/edu/uco/tiendachepito/entity/PaisEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaChepito/src/test/java/co/edu/uco/tiendachepito/config/TiendaChepitoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/api/info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/config/TiendachepitoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/exception/TiendaChepitoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/exception/custom/BusinessTiendaChepitoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/exception/custom/ControllerTiendaChepitoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/exception/custom/CrosscuttingTiendaChepitoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/exception/custom/DTOTiendaChepitoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/exception/custom/DataTiendaChepitoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/exception/custom/EntityTiendaChepitoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/exception/custom/InitializerTiendaChepitoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/exception/enums/Lugar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/exception/messagecatalog/MessageCatalog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/exception/messagecatalog/MessageCatalogStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/exception/messagecatalog/data/CategoriaMensaje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/exception/messagecatalog/data/CodigoMensaje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/exception/messagecatalog/data/Mensaje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/exception/messagecatalog/data/TipoMensaje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/exception/messagecatalog/impl/MessageCatalogBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/exception/messagecatalog/impl/MessageCatalogExternalService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/helpers/NumericHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/helpers/ObjectHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/helpers/SQLHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/crosscutting/crosscutting/helpers/TextHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/data/DAO/CiudadDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/data/DAO/DepartamentoDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/data/DAO/PaisDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/data/DAO/factory/DAOFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/data/DAO/factory/enums/Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/data/DAO/factory/sql/azuresql/AzureSqlDAOFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/data/DAO/general/ActualizarDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/data/DAO/general/ConsultarDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/data/DAO/general/CrearDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/data/DAO/general/EliminarDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/data/DAO/sql/SqlConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/data/DAO/sql/azuresql/CiudadAzureSqlDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/data/DAO/sql/azuresql/DepartamentoAzureSqlDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/data/DAO/sql/azuresql/PaisAzureSqlDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/dto/CiudadDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/dto/DepartamentoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/dto/PaisDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/entity/ciudadEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/entity/departamentoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/java/co/edu/uco/tiendachepito/entity/paisEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/api/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/business/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/config/TiendaChepitoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/data/dao/CiudadDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/data/dao/DepartamentoDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/data/dao/PaisDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/data/dao/factory/DAOFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/data/dao/factory/sql/azuresql/AzureSqlDAOFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/data/dao/general/ActualizarDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/data/dao/general/ConsultarDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/data/dao/general/CrearDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/data/dao/general/EliminarDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/data/dao/nosql/mongodb/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/data/dao/sql/SqlConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/data/dao/sql/azuresql/CiudadAzureSqlDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/data/dao/sql/azuresql/DepartamentoAzureSqlDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/data/dao/sql/azuresql/PaisAzureSqlDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/dto/CiudadDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/dto/DepartamentoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/dto/PaisDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/entity/CiudadEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/entity/DepartamentoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/java/co/edu/uco/tiendachepito/entity/PaisEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/src/test/java/co/edu/uco/tiendachepito/config/TiendaChepitoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiendaChepito-Codigo de clase/src/test/java/co/edu/uco/tiendachepito/config/TiendaChepitoApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +90,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jhoel2506"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jhoel2506/Codigo-de-clase-DOO.git",
+    "accountId": "f5528345-cf72-4f8b-ab3d-afb108d8cc07"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -84,7 +121,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "main1",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/DELL/OneDrive/Escritorio/DOO/Codigo-de-clase-DOO",
     "node.js.detected.package.eslint": "true",
@@ -114,6 +151,10 @@
       <workItem from="1715808337601" duration="842000" />
       <workItem from="1715809202050" duration="19000" />
       <workItem from="1715809239155" duration="63000" />
+      <workItem from="1715809336052" duration="103000" />
+      <workItem from="1715809464499" duration="38000" />
+      <workItem from="1715809541315" duration="18000" />
+      <workItem from="1715809594930" duration="106000" />
     </task>
     <servers />
   </component>
